@@ -1,0 +1,14 @@
+footer {
+  text-align: center;
+  margin: 8em 0 3em 0;
+  span {
+    color: $primary-color
+  }
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    &:hover {
+      @extend %hover-to-secondary;
+    }
+  }
+}

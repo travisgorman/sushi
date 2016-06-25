@@ -1,32 +1,36 @@
 
 //
 .content {
-
-  section {
-    width: 90%;
+  main {
+    width: 100%;
     margin: 0 auto;
     .sushi {
+      width: 66%;
+      margin: 0 auto;
+      background: $primary-color;
       text-align: center;
-      margin-bottom: 112px;
-      margin-top: 112px;
+      // margin-bottom: 112px;
+      // margin-top: 112px;
       img {
-        width: 80%;
-        max-width: 360px;
-        max-height: 195;
+        width: 28%;
+        padding: 8%;
+        margin: 4% 0 4% 0;
+        border-radius: 50px;
+        background: #fff;
         h3 {
+          text-align: center;
+          font-size: 1.2em;
+          color: $primary-color;
           margin-bottom: 1em;
           margin-top: 1em;
           p {
-            
-            
-
+            text-align: center;
+            line-height: 1.4em;
+            color: $primary-color;
+            margin-bottom: 3em;
           }
-
         }
-
       }
-
     }
-
   }
 }

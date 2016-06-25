@@ -1,6 +1,6 @@
 @media screen and (min-width: 510px) {
-  .menu-item {
-    .item-image {
+  .sushi-item {
+    .sushi-image {
       width:41%;
       float:left;
       // margin: 0 3% 2em 3%;
@@ -20,9 +20,11 @@
 
 @media screen and (min-width: 840px) {
   header {
+    height: 9em;
     h1 {
       text-align: left;
       width: 50%;
+      margin: 2em 0 1em 5%;
       // margin: 2em 0 1em 5%;
     }
     .question-icon {
@@ -36,7 +38,7 @@
       float: left;
       text-align: left;
     }
-    .navigation-icons {
+    .circle-nav {
       margin: 0 5% 0 0;
       float: right;
     }
@@ -46,19 +48,18 @@
       display: block;
     }
   }
-
-  .menu-item {
+  .sushi-item {
     float: left;
-    .item-image, h4, p {
+    .sushi-image, h4, p {
       float: none;
       width:100%;
       margin: 1em 0 0 0;
     }
-    .item-description {
+    .sushi-info {
       margin-top: 1em;
     }
   }
-  .menu-item::after {
+  .sushi-item::after {
     content:"";
     clear: both;
     display: block;

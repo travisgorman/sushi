@@ -1,0 +1,74 @@
+@media screen and (min-width: 510px) {
+  .menu-item {
+    .item-image {
+      width:41%;
+      float:left;
+      // margin: 0 3% 2em 3%;
+    }
+    h4 {
+      text-align: left;
+      font-size: 1em;
+      color: $primary-color;
+      margin: 0;
+      float: left;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 840px) {
+  header {
+    h1 {
+      text-align: left;
+      width: 50%;
+      // margin: 2em 0 1em 5%;
+    }
+    .question-icon {
+      bottom: 12px;
+      left: 162px;
+    }
+    h2 {
+      margin: 0 0 0 5%;
+      width: 50%;
+      display: inline-block;
+      float: left;
+      text-align: left;
+    }
+    .navigation-icons {
+      margin: 0 5% 0 0;
+      float: right;
+    }
+    header::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+  }
+
+  .menu-item {
+    float: left;
+    .item-image, h4, p {
+      float: none;
+      width:100%;
+      margin: 1em 0 0 0;
+    }
+    .item-description {
+      margin-top: 1em;
+    }
+  }
+  .menu-item::after {
+    content:"";
+    clear: both;
+    display: block;
+  }
+  section {
+    height: 300px;
+  }
+  footer {
+    height: 3em;
+    padding-top: 7em;
+    margin: 0;
+  }
+}

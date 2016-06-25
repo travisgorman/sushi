@@ -1,9 +1,19 @@
 @import '_variables';
  
 header {
-  width: 90%;
-  margin: 90px auto 30px auto;
+  // width: 90%;
+  // margin: 90px auto 30px auto;
+  padding: 1em;
+  height: 14em;
   text-align: center;
+  h1 {
+    font-size: 1em;
+    letter-spacing: 0.5em;
+    color:$primary-color;
+    position: relative;
+    width: 10em;
+    margin: 10em;
+  }
   .logo {
   text-align: center;
   }

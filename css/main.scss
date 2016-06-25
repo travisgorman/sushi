@@ -1,6 +1,6 @@
-// imports
+ // imports
 
-@import '_header', '_content', '_variables', '_tab-nav';
+@import '_header', '_content', '_variables', '_tab-nav', '_media-queries';
 
 
 // global stuff 
@@ -65,3 +65,40 @@ ul {
   padding: 0;
 }
 
+@media screen and (min-width: 510px) {
+  .menu-item {
+    .item-image {
+      width: 40%;
+      float: left;
+      margin: 0 3% 2em 3%;
+    }
+    h3 {
+      text-align: left;
+      font-size: 1em;
+      color: $second-color;
+      margin: 0;
+      float: left;
+    }
+    p {
+      text-align: left;
+      font-size: 0.8em;
+      line-height: 1.5em;
+      color: $primary-color;
+      margin: left;
+      float: left;
+      width: 50%;
+    }
+  }
+  .menu-item::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  nav {
+    text-align: center
+  }
+  .tab-nav {
+
+  }
+}

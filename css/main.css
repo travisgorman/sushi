@@ -25,7 +25,8 @@ header {
   header .circle-nav {
     display: inline-block;
     padding: 0;
-    margin-bottom: 40px; }
+    margin-bottom: 1em;
+    margin-top: 1em; }
     header .circle-nav li {
       list-style-type: none;
       display: inline-block;
@@ -49,7 +50,12 @@ header {
     width: 66%;
     margin: 0 auto;
     background: #47a3da;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 2em; }
+    .content main .sushi .sushi-info {
+      width: 70%;
+      border: 1px solid green;
+      text-align: center; }
     .content main .sushi img {
       width: 28%;
       padding: 8%;
@@ -70,8 +76,7 @@ header {
 
 .tab-nav {
   width: 100%;
-  display: inline-block;
-  padding: 0 0 2em;
+  display: block;
   margin-bottom: 2em;
   border-bottom: 1px solid #47a3da; }
   .tab-nav li {
@@ -79,9 +84,8 @@ header {
     margin: 0 0.4% 0 0.4%;
     border-bottom: 0; }
     .tab-nav li:first-child {
-      margin-left: 17.75%;
       border: 1px solid #ccc;
-      border-bottom: 0; }
+      border-bottom: #fff; }
     .tab-nav li:hover {
       color: #47a3da;
       border-top: 2px solid #47a3da;
@@ -115,6 +119,10 @@ a {
   .sushi-item .sushi-image {
     width: 41%;
     float: left; }
+  .sushi-item .tab-nav {
+    width: 100%; }
+  .sushi-item .tab-nav li {
+    width: 20%; }
   .sushi-item h4 {
     text-align: left;
     font-size: 1em;
@@ -226,7 +234,7 @@ header {
 
 .tab-nav {
   display: inline-block;
-  padding: 0 0 2em 0;
+  padding: 0 0 0 0;
   width: 100%; }
   .tab-nav li {
     list-style-type: none;
@@ -253,10 +261,18 @@ header {
 section {
   width: 100%; }
 
+.sushi {
+  margin-bottom: 2em;
+  text-align: center; }
+
 .sushi-item .sushi-image {
   width: 66%;
   margin: 0 auto;
   background: #47a3da;
+  text-align: center; }
+.sushi-item .sushi-info {
+  width: 70%;
+  border: 1px solid green;
   text-align: center; }
 .sushi-item img {
   width: 28%;

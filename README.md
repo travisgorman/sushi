@@ -22,11 +22,11 @@ ___
 
 ### Style Guide
 
-# h1 36px, uppercase, character-spacing: 15 
+# h1 36px, uppercase, character-spacing: 15
 # h2 68px regular
 # h3 46px bold
 # h4 32px regular
-# p 38px 
+# p 38px
 
 
 ```
@@ -64,3 +64,32 @@ span
 # todo
 * `tab-navs`  5 tabs
   * on hover, border-bottom display:none
+
+  ====
+  header
+    .logo
+      h1.name
+      h2.tagline
+    ul.circle-nav
+      li.circle
+    ul.tab-nav
+      li.tab
+  main
+    .sushi
+      .sushi-image
+      .sushi-info
+        h3
+        p
+    .sushi
+      .sushi-image
+      .sushi-info
+        h3
+        p
+    .sushi
+      .sushi-image
+      .sushi-info
+        h3
+        p
+  footer
+    span
+===============

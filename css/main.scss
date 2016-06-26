@@ -77,7 +77,7 @@ header {
 
 .tab-nav {
   display: inline-block;
-  padding: 0 0 2em 0;
+  padding: 0 0 0 0;
   width: 100%;
 
   li {
@@ -115,13 +115,21 @@ header {
 section {
   width: 100%;
 }
-
+.sushi {
+  margin-bottom: 2em;
+  text-align: center;
+}
 .sushi-item {
   .sushi-image {
     width: 66%;
     margin: 0 auto;
     background: $primary-color;
     text-align: center;
+  }
+.sushi-info {
+    width: 70%;
+    border: 1px solid green;
+    text-align:center;
   }
   img {
     width: 28%;

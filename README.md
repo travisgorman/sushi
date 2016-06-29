@@ -11,7 +11,7 @@ Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard 
 
 Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.
 
-  ====
+```
   header
     .logo
       h1.name
@@ -38,4 +38,4 @@ Nori grape silver beet broccoli kombu beet greens fava bean potato quandong cele
         p
   footer
     span
-===============
+````

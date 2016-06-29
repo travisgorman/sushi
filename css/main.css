@@ -51,7 +51,8 @@ header {
     margin: 0 auto;
     background: #47a3da;
     text-align: center;
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    margin-top: 2em; }
     .content main .sushi .sushi-info {
       width: 70%;
       border: 1px solid green;
